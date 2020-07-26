@@ -6,7 +6,6 @@ public struct QueryableProperty<QueryableType> {
     /// Queryable element accessor
     public var element: QueryableType?
     
-    let github: GitHubClient
     
     init(_ obj: QueryableType? = nil, github: GitHubClient) {
         element = obj
